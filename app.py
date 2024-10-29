@@ -14,7 +14,7 @@ password = os.getenv('DB_PASSWORD')
 host = os.getenv('DB_HOST')
 dbname = os.getenv('DB_NAME')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{username}:{password}@{host}:3306/{dbname}'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{username}:{password}@{host}:3306/{dbname}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
