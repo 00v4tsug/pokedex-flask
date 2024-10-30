@@ -181,7 +181,7 @@ def add_initial_pokemons():
          ('Dragonair', 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/148.png', 'Dragão', 'Ele pode voar rapidamente.'),
          ('Dragonite', 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/149.png', 'Dragão e Voador', 'Um Pokémon muito poderoso e amigável.'),
          ('Mewtwo', 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150.png', 'Psíquico', 'Um Pokémon que foi criado a partir de genética avançada.'),
-         ('Mew', 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/151.png', 'Psíquico', 'Um Pokémon mítico que é muito raro.');
+         ('Mew', 'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/151.png', 'Psíquico', 'Um Pokémon mítico que é muito raro.')
     ]
 
     # Inserir os Pokémon no banco de dados
